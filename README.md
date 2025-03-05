@@ -1,6 +1,10 @@
 # Chustomer Churn Analysis
 ## Business Understanding
-##Data Understanding
+
+## Tools
+SQL (Data Wrangling and EDA), Tableau (Data Visualization), Python-Machine Learning (Prediction)
+
+## Data Understanding
 | FEATURE | DESCRIPTION |
 | --- | --- |
 | CustomerID |	A unique ID that identifies each customer |
@@ -16,7 +20,7 @@
 |	Tenure in Months |	Indicates the total amount of months that the customer has been with the company by the end of the quarter specified above |
 |	Offer |	Identifies the last marketing offer that the customer accepted: None, Offer A, Offer B, Offer C, Offer D, offer E |
 | Phone Service | Indicates if the customer subscribes to home phone service with the company: Yes, No |
-|	Avg Monthly Long Distance Charges | Indicates the customer�s average long distance charges, calculated to the end of the quarter specified above (if the customer is not subscribed to home phone service, this will be 0) |
+|	Avg Monthly Long Distance Charges | Indicates the customer's average long distance charges, calculated to the end of the quarter specified above (if the customer is not subscribed to home phone service, this will be 0) |
 |	Multiple Lines | Indicates if the customer subscribes to multiple telephone lines with the company: Yes, No (if the customer is not subscribed to home phone service, this will be No) |
 |	Internet Service | Indicates if the customer subscribes to Internet service with the company: Yes, No |
 |	Internet Type | Indicates the customer's type of internet connection: DSL, Fiber Optic, Cable ((if the customer is not subscribed to internet service, this will be None)
@@ -41,5 +45,5 @@
 | Customer Status | Indicates the status of the customer at the end of the quarter: Churned, Stayed, or Joined |
 | Churn Category | A high-level category for the customer’s reason for churning, which is asked when they leave the company: Attitude, Competitor, Dissatisfaction, Other, Price (directly related to Churn Reason) |
 |	Churn Reason | A customer’s specific reason for leaving the company, which is asked when they leave the company (directly related to Churn Category) |
-|	Zip Code | The zip code of the customer�s primary residence |
-|	Population |	A current population estimate for the entire Zip Code area |
+
+## Data Wrangling
