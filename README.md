@@ -1,6 +1,7 @@
 # Chustomer Churn Analysis
 ## Business Understanding
 ##Data Understanding
+
 | CustomerID |	A unique ID that identifies each customer |
 | Gender |	The customer's gender: Male, Female |
 |	Age |	The customer's current age, in years, at the time the fiscal quarter ended (Q2 2022) |
