@@ -1,8 +1,21 @@
 # Chustomer Churn Analysis
+## Table of Contents
+1. [Latar Belakang](#latar-belakang)
+2. [Tools dan Teknologi](#tools-dan-teknologi)
+3. [Struktur Repositori](#struktur-repositori)
+4. [Langkah-Langkah Analisis](#langkah-langkah-analisis)
+5. [Hasil dan Visualisasi](#hasil-dan-visualisasi)
+6. [Cara Menjalankan Proyek](#cara-menjalankan-proyek)
+7. [Kesimpulan](#kesimpulan)
+8. [Kontribusi](#kontribusi)
+
 ## Business Understanding
 
 ## Tools
-SQL (Data Wrangling and EDA), Tableau (Data Visualization), Python-Machine Learning (Prediction)
+- **SQL**: Data wrangling and EDA.
+- **Tableau**: Data visualisation.
+- **Python**: To build a churn prediction model.
+- **Libraries Python**: Pandas, Numpy, Scikit-learn, Gradient Boosting, Matplotlib, Seaborn.
 
 ## Data Understanding
 | FEATURE | DESCRIPTION |
@@ -46,4 +59,11 @@ SQL (Data Wrangling and EDA), Tableau (Data Visualization), Python-Machine Learn
 | Churn Category | A high-level category for the customer’s reason for churning, which is asked when they leave the company: Attitude, Competitor, Dissatisfaction, Other, Price (directly related to Churn Reason) |
 |	Churn Reason | A customer’s specific reason for leaving the company, which is asked when they leave the company (directly related to Churn Category) |
 
+## Exploratory Data Analysis
+
 ## Data Wrangling
+
+## Visualization
+![Screenshot (992)](https://github.com/user-attachments/assets/92dc3645-78f8-4690-9231-dca4debeb5dc)
+
+## Prediction
