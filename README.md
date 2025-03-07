@@ -1,7 +1,7 @@
 # Chustomer Churn Analysis
 ## Table of Contents
-1. [Latar Belakang](#latar-belakang)
-2. [Tools dan Teknologi](#tools-dan-teknologi)
+1. [Project Overview](#Project-Overview)
+2. [Tools](#Tools)
 3. [Struktur Repositori](#struktur-repositori)
 4. [Langkah-Langkah Analisis](#langkah-langkah-analisis)
 5. [Hasil dan Visualisasi](#hasil-dan-visualisasi)
@@ -9,7 +9,8 @@
 7. [Kesimpulan](#kesimpulan)
 8. [Kontribusi](#kontribusi)
 
-## Business Understanding
+## Project Overview
+
 
 ## Tools
 - **SQL**: Data wrangling and EDA.
