@@ -18,7 +18,7 @@
 - **Python**: To build a churn prediction model.
 - **Libraries Python**: Pandas, Numpy, Scikit-learn, Gradient Boosting, Matplotlib, Seaborn.
 
-## Data Understanding
+## Dataset
 | FEATURE | DESCRIPTION |
 | --- | --- |
 | CustomerID |	A unique ID that identifies each customer |
@@ -60,7 +60,11 @@
 | Churn Category | A high-level category for the customer’s reason for churning, which is asked when they leave the company: Attitude, Competitor, Dissatisfaction, Other, Price (directly related to Churn Reason) |
 |	Churn Reason | A customer’s specific reason for leaving the company, which is asked when they leave the company (directly related to Churn Category) |
 
-## Exploratory Data Analysis
+**Data Source Link:** [Link](https://www.kaggle.com/datasets/shilongzhuang/telecom-customer-churn-by-maven-analytics/data?) 
+
+## Process
+### Exploratory Data Analysis
+
 
 ## Data Wrangling
 
