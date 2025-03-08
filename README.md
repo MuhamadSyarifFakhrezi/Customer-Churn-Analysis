@@ -64,7 +64,7 @@
 
 ## Process
 ### Exploratory Data Analysis
-- How many customers churned?
+- **How many customers churned?**
 ```
 --The number of customers by customer status
 SELECT 
@@ -79,7 +79,7 @@ GROUP BY 1;
 
 The company has lost 1869 customers which is 27% of the total customers it had before. 
 
-- How much revenue is lost due to churned customer?
+- **How much revenue is lost due to churned customer?**
 ```
 --Lost revenue due to churned customers
 SELECT
@@ -94,7 +94,7 @@ GROUP BY 1;
 
 Of the 1869 churned customers, they have accounted for 17% of the company's total revenue.
 
-- What type of tenure has the high churn rate?
+- **What type of tenure has the high churn rate?**
 ```
 --Churn rate by tenure
 SELECT
@@ -116,7 +116,7 @@ ORDER BY 4 DESC;
 
 I found that 53% of churned customers spent 6 months or less before leaving, more than half of the customers who churned had a relatively short tenure with the company.
 
-- What type of offer has the high churn rate?
+- **What type of offer has the high churn rate?**
 ```
 --Churn rate by offer
 SELECT
@@ -131,7 +131,9 @@ ORDER BY 4 DESC;
 
 ![Screenshot (996)](https://github.com/user-attachments/assets/3458d9c3-5a1c-42ad-8c58-181ad79c7a71)
 
-- What type of contract has the high churn rate?
+Customers who got the E offer had the highest churn rate of 53%, which is higher than customers who did not get the offer who only had a churn rate of 27%.
+
+- **What type of contract has the highest churn rate?**
 ```
 --Churn rate by contract
 SELECT
@@ -146,8 +148,9 @@ ORDER BY 4 DESC;
 
 ![Screenshot (997)](https://github.com/user-attachments/assets/6ad3b2f7-a544-4fa3-bccb-5211ae836442)
 
+Customers on month-to-month contract have the highest churn rate at 46%.
 
-- Which city has the highest churn rate?
+- **Which city has the highest churn rate?**
 ```
 --Churn rate by city
 SELECT
@@ -166,7 +169,7 @@ LIMIT 5;
 
 San Diego had the highest churn rate at 65%, which means that over half of their customers have left the company.
 
-- Which age category has the high churn rate?
+- **Which age category has the high churn rate?**
 ```
 --Churn rate by age
 SELECT
@@ -186,7 +189,9 @@ ORDER BY 4 DESC;
 
 ![Screenshot (999)](https://github.com/user-attachments/assets/8bc7c751-b35a-47e1-b882-ad82e5fd8ad2)
 
-- What are the underlying reasons for churn?
+In the age category, we found that the older the customer, the greater the churn rate.
+
+- **What are the underlying reasons for churn?**
 ```
 --The most reasons for churn
 SELECT
@@ -204,6 +209,7 @@ LIMIT 5;
 
 ![Screenshot (1000)](https://github.com/user-attachments/assets/35f718c4-2581-43b4-aae2-4fca159f2b86)
 
+The top 5 reasons for churn are 'Competitor made better offer', 'Competitor had better devices', 'Attitude of support person', 'Don't know', and 'Competitor offered more data'.
 
 ## Data Wrangling
 
