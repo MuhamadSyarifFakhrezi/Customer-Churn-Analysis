@@ -65,31 +65,38 @@
 ## Process
 ### Exploratory Data Analysis
 - How many customers churned?
-`--The number of customers by customer status
+```
+--The number of customers by customer status
 SELECT 
 	"Customer Status", 
 	COUNT(*) AS "Customer Count", 
 	ROUND(100.0 * COUNT(*) / SUM(COUNT(*)) OVER(), 2) AS Percentage
 FROM telecom_customer_churn
-GROUP BY 1;`
+GROUP BY 1;
+```
 
 ![Screenshot (994)](https://github.com/user-attachments/assets/2899624e-9e1c-49d4-83aa-d7f953de9942)
 
+The company has lost 1869 customers which is 27% of the total customers it had before. 
 
 - How much revenue is lost due to churned customer?
-`--Lost revenue due to churned customers
+```
+--Lost revenue due to churned customers
 SELECT
 	"Customer Status",
 	SUM("Total Revenue") AS "Total Revenue",
 	ROUND(100.0 * SUM("Total Revenue") / SUM(SUM("Total Revenue")) OVER(), 2) AS "Percentage of Total Revenue"
 FROM telecom_customer_churn
-GROUP BY 1;`
+GROUP BY 1;
+```
 
 ![Screenshot (993)](https://github.com/user-attachments/assets/af13339d-6dd6-41a0-a934-6ea40a083114)
 
+Of the 1869 churned customers, they have accounted for 17% of the company's total revenue.
 
 - What type of tenure has the high churn rate?
-`--Churn rate by tenure
+```
+--Churn rate by tenure
 SELECT
 	CASE
 		WHEN "Tenure in Months" <= 6 THEN "0-6 Months"
@@ -102,12 +109,16 @@ SELECT
 	ROUND(100.0 * COUNT(CASE WHEN "Customer Status" == "Churned" THEN "Customer ID" ELSE NULL END) / COUNT("Customer ID"), 2) AS "Churn Rate"
 FROM telecom_customer_churn
 GROUP BY 1
-ORDER BY 4 DESC;`
+ORDER BY 4 DESC;
+```
 
 ![Screenshot (995)](https://github.com/user-attachments/assets/202bca4d-f3f4-4183-a63f-299a49fcd2a7)
 
+I found that 53% of churned customers spent 6 months or less before leaving, more than half of the customers who churned had a relatively short tenure with the company.
+
 - What type of offer has the high churn rate?
-`--Churn rate by offer
+```
+--Churn rate by offer
 SELECT
 	Offer,
 	COUNT(*) AS "Number of Customers",
@@ -115,12 +126,14 @@ SELECT
 	ROUND(100.0 * COUNT(CASE WHEN "Customer Status" == "Churned" THEN "Customer ID" ELSE NULL END) / COUNT("Customer ID"), 2) AS "Churn Rate"
 FROM telecom_customer_churn
 GROUP BY 1
-ORDER BY 4 DESC;`
+ORDER BY 4 DESC;
+```
 
 ![Screenshot (996)](https://github.com/user-attachments/assets/3458d9c3-5a1c-42ad-8c58-181ad79c7a71)
 
 - What type of contract has the high churn rate?
-`--Churn rate by contract
+```
+--Churn rate by contract
 SELECT
 	Contract,
 	COUNT(*) AS "Number of Customers",
@@ -128,13 +141,15 @@ SELECT
 	ROUND(100.0 * COUNT(CASE WHEN "Customer Status" == "Churned" THEN "Customer ID" ELSE NULL END) / COUNT("Customer ID"), 2) AS "Churn Rate"
 FROM telecom_customer_churn
 GROUP BY 1
-ORDER BY 4 DESC;`
+ORDER BY 4 DESC;
+```
 
 ![Screenshot (997)](https://github.com/user-attachments/assets/6ad3b2f7-a544-4fa3-bccb-5211ae836442)
 
 
 - Which city has the highest churn rate?
-`--Churn rate by city
+```
+--Churn rate by city
 SELECT
 	City,
 	COUNT(*) AS "Number of Customers",
@@ -144,12 +159,16 @@ FROM telecom_customer_churn
 GROUP BY 1
 HAVING COUNT(*) >= 30
 ORDER BY 4 DESC
-LIMIT 5;`
+LIMIT 5;
+```
 
 ![Screenshot (998)](https://github.com/user-attachments/assets/838ab1bb-bc81-4285-a0d7-3f6f815bea2a)
 
+San Diego had the highest churn rate at 65%, which means that over half of their customers have left the company.
+
 - Which age category has the high churn rate?
-`--Churn rate by age
+```
+--Churn rate by age
 SELECT
 	CASE
 		WHEN Age <= 25 THEN "18-25 Years Old"
@@ -162,12 +181,14 @@ SELECT
 	ROUND(100.0 * COUNT(CASE WHEN "Customer Status" == "Churned" THEN "Customer ID" ELSE NULL END) / COUNT("Customer ID"), 2) AS "Churn Rate"
 FROM telecom_customer_churn
 GROUP BY 1
-ORDER BY 4 DESC;`
+ORDER BY 4 DESC;
+```
 
 ![Screenshot (999)](https://github.com/user-attachments/assets/8bc7c751-b35a-47e1-b882-ad82e5fd8ad2)
 
 - What are the underlying reasons for churn?
-`--The most reasons for churn
+```
+--The most reasons for churn
 SELECT
 	"Churn Reason",
 	"Churn Category",
@@ -178,7 +199,8 @@ FROM telecom_customer_churn
 WHERE "Customer Status" == "Churned"
 GROUP BY 1, 2
 ORDER BY 3 DESC
-LIMIT 5;`
+LIMIT 5;
+```
 
 ![Screenshot (1000)](https://github.com/user-attachments/assets/35f718c4-2581-43b4-aae2-4fca159f2b86)
 
