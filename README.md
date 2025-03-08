@@ -209,7 +209,7 @@ LIMIT 5;
 
 ![Screenshot (1000)](https://github.com/user-attachments/assets/35f718c4-2581-43b4-aae2-4fca159f2b86)
 
-The top 5 reasons for churn are 'Competitor made better offer', 'Competitor had better devices', 'Attitude of support person', 'Don't know', and 'Competitor offered more data'.
+The top 5 reasons why customers churn are 'Competitor made better offer', 'Competitor had better devices', 'Attitude of support person', 'Don't know', and 'Competitor offered more data'.
 
 ## Data Wrangling
 
