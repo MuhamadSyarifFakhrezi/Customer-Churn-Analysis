@@ -63,7 +63,17 @@
 **Data Source Link:** [Link](https://www.kaggle.com/datasets/shilongzhuang/telecom-customer-churn-by-maven-analytics/data?) 
 
 ## Process
-### Exploratory Data Analysis
+- Collect the data
+- Exploratory Data Analysis
+- Data Preprocessing and cleaning
+- Deploying visualizations with Tableau
+- Feature engineering, labeling, and scaling
+- Model training and hyperparameter tuning
+- Evaluation
+- Prediction test and model improvements
+- Conclusion and article writing
+
+## Exploratory Data Analysis
 - **How many customers churned?**
 ```
 --The number of customers by customer status
@@ -210,8 +220,6 @@ LIMIT 5;
 ![Screenshot (1000)](https://github.com/user-attachments/assets/35f718c4-2581-43b4-aae2-4fca159f2b86)
 
 The top 5 reasons why customers churn are 'Competitor made better offer', 'Competitor had better devices', 'Attitude of support person', 'Don't know', and 'Competitor offered more data'.
-
-## Data Wrangling
 
 ## Visualization
 ![Screenshot (992)](https://github.com/user-attachments/assets/92dc3645-78f8-4690-9231-dca4debeb5dc)
