@@ -1,13 +1,13 @@
 # Customer Churn Analysis
 ## Table of Contents
 1. [Project Overview](#project-overview)
-2. [Tools](##Tools)
-3. [Dataset](##Dataset)
-4. [Process](##Process)
-5. [Exploratory Data Analysis](##Exploratory-Data-Analysis)
-6. [Visualization](##Visualization)
-7. [Model](##Model)
-8. [Conclusion and Recommendation](##Conclusion-and-Recommendation)
+2. [Tools](#tools)
+3. [Dataset](#dataset)
+4. [Process](#process)
+5. [Exploratory Data Analysis](#exploratory-data-analysis)
+6. [Visualization](#visualization)
+7. [Model](#model)
+8. [Conclusion and Recommendation](#conclusion-and-recommendation)
 9. [Cara Menjalankan Proyek](#cara-menjalankan-proyek)
 10. [Kontribusi](#kontribusi)
 
