@@ -1,13 +1,15 @@
 # Customer Churn Analysis
 ## Table of Contents
-1. [Project Overview](#Project-Overview)
-2. [Tools](#Tools)
-3. [Struktur Repositori](#struktur-repositori)
-4. [Langkah-Langkah Analisis](#langkah-langkah-analisis)
-5. [Hasil dan Visualisasi](#hasil-dan-visualisasi)
-6. [Cara Menjalankan Proyek](#cara-menjalankan-proyek)
-7. [Kesimpulan](#kesimpulan)
-8. [Kontribusi](#kontribusi)
+1. [Project Overview](##Project-Overview)
+2. [Tools](##Tools)
+3. [Dataset](##Dataset)
+4. [Process](##Process)
+5. [Exploratory Data Analysis](##Exploratory-Data-Analysis)
+6. [Visualization](##Visualization)
+7. [Model](##Model)
+8. [Conclusion and Recommendation](##Conclusion-and-Recommendation)
+9. [Cara Menjalankan Proyek](#cara-menjalankan-proyek)
+10. [Kontribusi](#kontribusi)
 
 ## Project Overview
 
@@ -224,4 +226,9 @@ The top 5 reasons why customers churn are 'Competitor made better offer', 'Compe
 ## Visualization
 ![Screenshot (992)](https://github.com/user-attachments/assets/92dc3645-78f8-4690-9231-dca4debeb5dc)
 
-## Prediction
+## Model
+![accuracy model](https://github.com/user-attachments/assets/0351be9f-857a-490d-86a7-ee6a036fe48c)
+
+![confusion matrix](https://github.com/user-attachments/assets/93e02611-8420-464c-b59c-13fb51d22629)
+
+## Conclusion and Recomenndation
