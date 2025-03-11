@@ -1,18 +1,27 @@
 # Customer Churn Analysis
 ## Table of Contents
 1. [Project Overview](#project-overview)
-2. [Tools](#tools)
-3. [Dataset](#dataset)
-4. [Process](#process)
-5. [Exploratory Data Analysis](#exploratory-data-analysis)
-6. [Visualization](#visualization)
-7. [Model](#model)
-8. [Conclusion and Recommendation](#conclusion-and-recommendation)
-9. [Cara Menjalankan Proyek](#cara-menjalankan-proyek)
-10. [Kontribusi](#kontribusi)
+2. [Objectives](#objectives)
+3. [Tools](#tools)
+4. [Dataset](#dataset)
+5. [Process](#process)
+6. [Exploratory Data Analysis](#exploratory-data-analysis)
+7. [Visualization](#visualization)
+8. [Model](#model)
+9. [Conclusion and Recommendation](#conclusion-and-recommendation)
+10. [Cara Menjalankan Proyek](#cara-menjalankan-proyek)
+11. [Kontribusi](#kontribusi)
 
 ## Project Overview
+In the telecoms industry, customer churn is a critical metric that can affect revenue and business growth. Maintaining individual customer retention is difficult because most companies have many customers and cannot afford to devote a lot of time to each customer, besides being costly. However, if companies can predict which customers are likely to leave the company, then companies can focus customer retention efforts only on customers who are ‘high risk’ of churn. 
 
+Therefore, this project aims to analyse the factors that influence churn and build a predictive model to identify customers who are likely to churn. By understanding churn patterns, companies can take proactive measures to improve customer retention.
+
+## Objectives
+- **Exploratory Analysis (EDA)**: Exploring data to understand patterns, trends, and factors that contribute to churn.
+- **Data Visualisation**: Create interactive dashboards to visually present insights.
+- **Churn Prediction**: Build machine learning models to predict potential churn customers.
+- **Business Recommendations**: Provide strategic recommendations based on analysis results.
 
 ## Tools
 - **SQL**: Data wrangling and EDA.
@@ -62,7 +71,7 @@
 | Churn Category | A high-level category for the customer’s reason for churning, which is asked when they leave the company: Attitude, Competitor, Dissatisfaction, Other, Price (directly related to Churn Reason) |
 |	Churn Reason | A customer’s specific reason for leaving the company, which is asked when they leave the company (directly related to Churn Category) |
 
-**Data Source Link:** [Link](https://www.kaggle.com/datasets/shilongzhuang/telecom-customer-churn-by-maven-analytics/data?) 
+**Data Source**: [Link](https://www.kaggle.com/datasets/shilongzhuang/telecom-customer-churn-by-maven-analytics/data?) 
 
 ## Process
 - Collect the data
@@ -231,4 +240,4 @@ The top 5 reasons why customers churn are 'Competitor made better offer', 'Compe
 
 ![confusion matrix](https://github.com/user-attachments/assets/93e02611-8420-464c-b59c-13fb51d22629)
 
-## Conclusion and Recomenndation
+## Conclusion and Recommendation
