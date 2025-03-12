@@ -233,6 +233,8 @@ The top 5 reasons why customers churn are 'Competitor made better offer', 'Compe
 ## Visualization
 ![Screenshot (1002)](https://github.com/user-attachments/assets/de0bb9c3-918f-418f-b629-81f8907268a9)
 
+[View Interactive Dashboard](https://public.tableau.com/app/profile/muhamad.syarif.fakhrezi/viz/CustomerChurnAnalysis_17399800693450/Dashboard1)
+
 ## Churn Prediction Model
 ![accuracy model](https://github.com/user-attachments/assets/0351be9f-857a-490d-86a7-ee6a036fe48c)
 
