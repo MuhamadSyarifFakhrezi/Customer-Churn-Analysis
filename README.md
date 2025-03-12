@@ -233,11 +233,15 @@ LIMIT 5;
 The top 5 reasons why customers churn are 'Competitor made better offer', 'Competitor had better devices', 'Attitude of support person', 'Don't know', and 'Competitor offered more data'.
 
 ## Visualization
-![Screenshot (992)](https://github.com/user-attachments/assets/92dc3645-78f8-4690-9231-dca4debeb5dc)
+![Screenshot (1002)](https://github.com/user-attachments/assets/de0bb9c3-918f-418f-b629-81f8907268a9)
 
 ## Model
 ![accuracy model](https://github.com/user-attachments/assets/0351be9f-857a-490d-86a7-ee6a036fe48c)
 
 ![confusion matrix](https://github.com/user-attachments/assets/93e02611-8420-464c-b59c-13fb51d22629)
 
+![feature importances](https://github.com/user-attachments/assets/3c5ed62d-975b-482a-ab3f-1acc6fd27d31)
+
 ## Conclusion and Recommendation
+- The company has 27% churn rate
+- 
