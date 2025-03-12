@@ -9,8 +9,6 @@
 7. [Visualization](#visualization)
 8. [Model](#model)
 9. [Conclusion and Recommendation](#conclusion-and-recommendation)
-10. [Cara Menjalankan Proyek](#cara-menjalankan-proyek)
-11. [Kontribusi](#kontribusi)
 
 ## Project Overview
 In the telecoms industry, customer churn is a critical metric that can affect revenue and business growth. Maintaining individual customer retention is difficult because most companies have many customers and cannot afford to devote a lot of time to each customer, besides being costly. However, if companies can predict which customers are likely to leave the company, then companies can focus customer retention efforts only on customers who are ‘high risk’ of churn. 
@@ -135,7 +133,7 @@ ORDER BY 4 DESC;
 
 ![Screenshot (995)](https://github.com/user-attachments/assets/202bca4d-f3f4-4183-a63f-299a49fcd2a7)
 
-I found that 53% of churned customers spent 6 months or less before leaving, more than half of the customers who churned had a relatively short tenure with the company.
+I found that customers with a tenure of 6 months - one year have the highest churn rate, more than half of them decide to churn.
 
 - **What type of offer has the high churn rate?**
 ```
@@ -235,13 +233,25 @@ The top 5 reasons why customers churn are 'Competitor made better offer', 'Compe
 ## Visualization
 ![Screenshot (1002)](https://github.com/user-attachments/assets/de0bb9c3-918f-418f-b629-81f8907268a9)
 
-## Model
+## Churn Prediction Model
 ![accuracy model](https://github.com/user-attachments/assets/0351be9f-857a-490d-86a7-ee6a036fe48c)
+
+xgboost model confusion matrix:
 
 ![confusion matrix](https://github.com/user-attachments/assets/93e02611-8420-464c-b59c-13fb51d22629)
 
-![feature importances](https://github.com/user-attachments/assets/3c5ed62d-975b-482a-ab3f-1acc6fd27d31)
-
 ## Conclusion and Recommendation
-- The company has 27% churn rate
-- 
+The company lost 1869 customers or about 27% of its total 7043 customers in the previous period, resulting in a lost of $3.68 in revenue.
+This is a significant number and can have a huge impact on revenue and business growth.
+
+Based on the insights found, here are some recommended actions that might be applied to reduce the churn rate:
+- Address the main reason for churn with several approaches, for example: 
+ - Increase the value of the company's offerings by providing more competitive packages, both in terms of price and features in order to compete with competitors.
+ - Consider working with leading vendors to provide the latest and more attractive devices.
+ - Improve customer support training to ensure a friendly, professional, and solutive attitude.
+- Conduct an in-depth analysis of why Offer E is causing a high churn rate (53%). Consider replacing or improving Offer E with a more relevant and engaging offer.
+- Provide incentives to convert month-to-month customers to long-term contracts, such as additional discounts or free premium services.
+- Segment customers by age and adjust marketing strategies and offers accordingly.
+- Conduct deeper geographical analysis to understand why San Diego has a very high churn rate (65%).
+
+Use the churn prediction model that has been built to identify customers who have the potential to churn. Then proactively intervene with the identified customers.
