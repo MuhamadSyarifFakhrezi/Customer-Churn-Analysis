@@ -19,7 +19,8 @@ Therefore, this project aims to analyse the factors that influence churn and bui
 6. [Exploratory Data Analysis](#exploratory-data-analysis)
 7. [Visualization](#visualization)
 8. [Model](#model)
-9. [Conclusion and Recommendation](#conclusion-and-recommendation)
+9. [Conclusion](#conclusion)
+10. [Recommendation](#recommendation)
 
 ## Tools
 - **SQL**: Data wrangling and EDA.
