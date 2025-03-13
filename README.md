@@ -21,6 +21,7 @@ Therefore, this project aims to analyse the factors that influence churn and bui
 8. [Model](#model)
 9. [Conclusion](#conclusion)
 10. [Recommendation](#recommendation)
+11. [Predict New Data](#predict-new-data-(joined))
 
 ## Tools
 - **SQL**: Data wrangling and EDA.
