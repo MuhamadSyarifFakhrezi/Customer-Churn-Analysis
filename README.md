@@ -1,15 +1,4 @@
 # Customer Churn Analysis
-## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Objectives](#objectives)
-3. [Tools](#tools)
-4. [Dataset](#dataset)
-5. [Process](#process)
-6. [Exploratory Data Analysis](#exploratory-data-analysis)
-7. [Visualization](#visualization)
-8. [Model](#model)
-9. [Conclusion and Recommendation](#conclusion-and-recommendation)
-
 ## Project Overview
 In the telecoms industry, customer churn is a critical metric that can affect revenue and business growth. Maintaining individual customer retention is difficult because most companies have many customers and cannot afford to devote a lot of time to each customer, besides being costly. However, if companies can predict which customers are likely to leave the company, then companies can focus customer retention efforts only on customers who are ‘high risk’ of churn. 
 
@@ -20,6 +9,17 @@ Therefore, this project aims to analyse the factors that influence churn and bui
 - **Data Visualisation**: Create interactive dashboards to visually present insights.
 - **Churn Prediction**: Build machine learning models to predict potential churn customers.
 - **Business Recommendations**: Provide strategic recommendations based on analysis results.
+
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Objectives](#objectives)
+3. [Tools](#tools)
+4. [Dataset](#dataset)
+5. [Process](#process)
+6. [Exploratory Data Analysis](#exploratory-data-analysis)
+7. [Visualization](#visualization)
+8. [Model](#model)
+9. [Conclusion and Recommendation](#conclusion-and-recommendation)
 
 ## Tools
 - **SQL**: Data wrangling and EDA.
@@ -236,11 +236,11 @@ The top 5 reasons why customers churn are 'Competitor made better offer', 'Compe
 [View Interactive Dashboard](https://public.tableau.com/app/profile/muhamad.syarif.fakhrezi/viz/CustomerChurnAnalysis_17399800693450/Dashboard1)
 
 ## Churn Prediction Model
-![accuracy model](https://github.com/user-attachments/assets/0351be9f-857a-490d-86a7-ee6a036fe48c)
+![accuracy model](https://github.com/user-attachments/assets/5ba1db31-4d30-4af1-94d3-7009b6753374)
 
 xgboost model confusion matrix:
 
-![confusion matrix](https://github.com/user-attachments/assets/93e02611-8420-464c-b59c-13fb51d22629)
+![confusion matrix](https://github.com/user-attachments/assets/dc8e1ca5-be59-4632-8929-98c999d14180)
 
 ## Conclusion and Recommendation
 The company lost 1869 customers or about 27% of its total 7043 customers in the previous period, resulting in a lost of $3.68 in revenue.
@@ -257,3 +257,10 @@ Based on the insights found, here are some recommended actions that might be app
 - Conduct deeper geographical analysis to understand why San Diego has a very high churn rate (65%).
 
 Use the churn prediction model that has been built to identify customers who have the potential to churn. Then proactively intervene with the identified customers.
+
+## Predict New Data (Joined)
+Predict customer data with customer status 'Joined' using the model that has been created.
+
+![Prediction](https://github.com/user-attachments/assets/b0c21fee-fc49-4aa6-abfd-a2e16d9fe650)
+
+It is necessary to pay attention to the customers that are identified as churning, because of the total 454 customers with the status 'Joined', with an accuracy of 88% it is predicted that 95% or about 431 customers will churn.
