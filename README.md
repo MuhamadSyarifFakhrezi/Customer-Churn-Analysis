@@ -259,7 +259,7 @@ Based on the insights found, here are some recommended actions that might be app
 Use the churn prediction model that has been built to identify customers who have the potential to churn. Then proactively intervene with the identified customers.
 
 ## Predict New Data (Joined)
-Predict customer data with customer status 'Joined' using the model that has been created.
+Predict customer data with customer status 'Joined' ([New Data](https://github.com/MuhamadSyarifFakhrezi/Customer-Churn-Analysis/blob/main/dataset/new%20data/join_data.csv)) using the model that has been created.
 
 ![Prediction](https://github.com/user-attachments/assets/b0c21fee-fc49-4aa6-abfd-a2e16d9fe650)
 
