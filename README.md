@@ -242,19 +242,22 @@ xgboost model confusion matrix:
 
 ![confusion matrix](https://github.com/user-attachments/assets/dc8e1ca5-be59-4632-8929-98c999d14180)
 
-## Conclusion and Recommendation
+## Conclusion
 The company lost 1869 customers or about 27% of its total 7043 customers in the previous period, resulting in a lost of $3.68 in revenue.
 This is a significant number and can have a huge impact on revenue and business growth.
 
+Of the four models, the model with the xgboost algorithm has the highest accuracy of 88%, this model is able to correctly predict 95% of the churn customer test data and 74% of the no-churn customer data set.
+
+## Recommendation
 Based on the insights found, here are some recommended actions that might be applied to reduce the churn rate:
-- Address the main reason for churn with several approaches, for example: 
- - Increase the value of the company's offerings by providing more competitive packages, both in terms of price and features in order to compete with competitors.
- - Consider working with leading vendors to provide the latest and more attractive devices.
- - Improve customer support training to ensure a friendly, professional, and solutive attitude.
-- Conduct an in-depth analysis of why Offer E is causing a high churn rate (53%). Consider replacing or improving Offer E with a more relevant and engaging offer.
-- Provide incentives to convert month-to-month customers to long-term contracts, such as additional discounts or free premium services.
-- Segment customers by age and adjust marketing strategies and offers accordingly.
-- Conduct deeper geographical analysis to understand why San Diego has a very high churn rate (65%).
+1. Address the main reason for churn with several approaches, for example:
+   - Increase the value of the company's offerings by providing more competitive packages, both in terms of price and features in order to compete with competitors.
+   - Consider working with leading vendors to provide the latest and more attractive devices.
+   - Improve customer support training to ensure a friendly, professional, and solutive attitude.
+2. Conduct an in-depth analysis of why Offer E is causing a high churn rate (53%). Consider replacing or improving Offer E with a more relevant and engaging offer.
+3. Provide incentives to convert month-to-month customers to long-term contracts, such as additional discounts or free premium services.
+4. Segment customers by age and adjust marketing strategies and offers accordingly.
+5. Conduct deeper geographical analysis to understand why San Diego has a very high churn rate (65%).
 
 Use the churn prediction model that has been built to identify customers who have the potential to churn. Then proactively intervene with the identified customers.
 
