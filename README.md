@@ -21,7 +21,7 @@ Therefore, this project aims to analyse the factors that influence churn and bui
 8. [Model](#model)
 9. [Conclusion](#conclusion)
 10. [Recommendation](#recommendation)
-11. [Predict New Data](#predict-new-data-(joined))
+11. [Predict New Data](#predict-new-data)
 
 ## Tools
 - **SQL**: Data wrangling and EDA.
@@ -263,7 +263,7 @@ Based on the insights found, here are some recommended actions that might be app
 
 Use the churn prediction model that has been built to identify customers who have the potential to churn. Then proactively intervene with the identified customers.
 
-## Predict New Data (Joined)
+## Predict New Data
 Predict customer data with customer status 'Joined' ([New Data](https://github.com/MuhamadSyarifFakhrezi/Customer-Churn-Analysis/blob/main/dataset/new%20data/join_data.csv)) using the model that has been created.
 
 ![Prediction](https://github.com/user-attachments/assets/b0c21fee-fc49-4aa6-abfd-a2e16d9fe650)
