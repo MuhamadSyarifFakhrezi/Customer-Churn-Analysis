@@ -2,7 +2,7 @@
 ## Project Overview
 In the telecoms industry, customer churn is a critical metric that can affect revenue and business growth. Maintaining individual customer retention is difficult because most companies have many customers and cannot afford to devote a lot of time to each customer, besides being costly. However, if companies can predict which customers are likely to leave the company, then companies can focus customer retention efforts only on customers who are ‘high risk’ of churn. 
 
-Therefore, this project aims to analyse the factors that influence churn and build a predictive model to identify customers who are likely to churn. By understanding churn patterns, companies can take proactive measures to improve customer retention.
+Therefore, this project aims to analyse the factors that influence churn and build a predictive model to identify customers who are likely to churn. The objective is to help business stakeholders understand why customers leave and what can be done to retain them. By understanding churn patterns, companies can take proactive measures to improve customer retention.
 
 ## Objectives
 - **Exploratory Analysis (EDA)**: Exploring data to understand patterns, trends, and factors that contribute to churn.
